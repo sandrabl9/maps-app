@@ -1,10 +1,11 @@
 import React from 'react';
 import { PlacesProvider } from './context';
+import { HomeScreen } from './screens';
 
 export const MapsApp = () => {
   return (
     <PlacesProvider>
-      <h1>Hola a todos</h1>
+      <HomeScreen />
     </PlacesProvider>
   );
 };
