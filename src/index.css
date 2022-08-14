@@ -17,9 +17,14 @@
     width: 300px;
     border-radius: 5px;
     box-shadow: 2px 2px 1px #000;
-
+    padding: 3px;
 }
 .search-bar-input {
-    padding: 5px;
+    padding: 3px;
     border-radius: 5px;
+}
+
+.search-results {
+    overflow-y: scroll;
+    max-height: 600px;
 }
