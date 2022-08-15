@@ -14,7 +14,7 @@
     left: 20px;
     background-color: #fff;
     z-index: 999;
-    width: 300px;
+    width: 250px;
     border-radius: 5px;
     box-shadow: 2px 2px 1px #000;
     padding: 3px;
@@ -27,4 +27,8 @@
 .search-results {
     overflow-y: scroll;
     max-height: 600px;
+}
+
+.pointer {
+    cursor: pointer;
 }
